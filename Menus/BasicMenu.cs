@@ -1,0 +1,63 @@
+﻿namespace CSharp_Practice;
+
+public static class BasicMenu
+{
+    public static void Show()
+    {
+        while (true)
+        {
+            Console.Clear();
+
+            Console.WriteLine("====== Basic Programs ======");
+
+            Console.WriteLine("1. Odd Even");
+            Console.WriteLine("2. Prime Number");
+            Console.WriteLine("3. Factorial");
+            Console.WriteLine("4. Fibonacci");
+            Console.WriteLine("5. Armstrong");
+            Console.WriteLine("6. Palindrome");
+            Console.WriteLine("0. Back");
+
+            Console.Write("\nEnter Choice : ");
+
+            int choice = Convert.ToInt32(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1:
+                    OddEven.Run();
+                    break;
+
+                case 2:
+                    //PrimeNumber.Run();
+                    break;
+
+                case 3:
+                    //Factorial.Run();
+                    break;
+
+                case 4:
+                    //Fibonacci.Run();
+                    break;
+
+                case 5:
+                    //Armstrong.Run();
+                    break;
+
+                case 6:
+                    //Palindrome.Run();
+                    break;
+
+                case 0:
+                    return;
+
+                default:
+                    Console.WriteLine("Invalid Choice");
+                    break;
+            }
+
+            Console.WriteLine("\nPress any key to continue...");
+            Console.ReadKey();
+        }
+    }
+}
