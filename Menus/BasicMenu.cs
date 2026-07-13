@@ -1,4 +1,6 @@
-﻿namespace CSharp_Practice;
+﻿using CSharp_Practice._01_Basic_Programs;
+
+namespace CSharp_Practice;
 
 public static class BasicMenu
 {
@@ -10,8 +12,9 @@ public static class BasicMenu
 
             Console.WriteLine("====== Basic Programs ======");
 
-            Console.WriteLine("1. Odd Even");
-            Console.WriteLine("2. Prime Number");
+            Console.WriteLine("1. Hello World");
+            Console.WriteLine("2. Odd Even");
+            Console.WriteLine("3. Prime Number");
             Console.WriteLine("3. Factorial");
             Console.WriteLine("4. Fibonacci");
             Console.WriteLine("5. Armstrong");
@@ -25,15 +28,15 @@ public static class BasicMenu
             switch (choice)
             {
                 case 1:
-                    OddEven.Run();
+                    Hello_World.Run();
                     break;
 
                 case 2:
-                    PrimeNumber.Run();
+                    OddEven.Run();
                     break;
 
                 case 3:
-                    //Factorial.Run();
+                    PrimeNumber.Run();
                     break;
 
                 case 4:
