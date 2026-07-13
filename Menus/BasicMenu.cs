@@ -29,7 +29,7 @@ public static class BasicMenu
                     break;
 
                 case 2:
-                    //PrimeNumber.Run();
+                    PrimeNumber.Run();
                     break;
 
                 case 3:
