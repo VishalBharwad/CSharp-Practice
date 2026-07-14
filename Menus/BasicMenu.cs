@@ -14,7 +14,7 @@ public static class BasicMenu
 
             Console.WriteLine("1. Hello World");
             Console.WriteLine("2. Odd Even");
-            Console.WriteLine("3. Prime Number");
+            Console.WriteLine("3. Positive_Negative_Zero");
             Console.WriteLine("3. Factorial");
             Console.WriteLine("4. Fibonacci");
             Console.WriteLine("5. Armstrong");
@@ -36,7 +36,7 @@ public static class BasicMenu
                     break;
 
                 case 3:
-                    PrimeNumber.Run();
+                    Positive_Negative_Zero.Run();
                     break;
 
                 case 4:
