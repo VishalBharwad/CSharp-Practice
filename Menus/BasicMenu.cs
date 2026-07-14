@@ -15,7 +15,7 @@ public static class BasicMenu
             Console.WriteLine("1. Hello World");
             Console.WriteLine("2. Odd Even");
             Console.WriteLine("3. Positive_Negative_Zero");
-            Console.WriteLine("3. Factorial");
+            Console.WriteLine("4. Largest_of_Two_Numbers");
             Console.WriteLine("4. Fibonacci");
             Console.WriteLine("5. Armstrong");
             Console.WriteLine("6. Palindrome");
@@ -40,7 +40,7 @@ public static class BasicMenu
                     break;
 
                 case 4:
-                    //Fibonacci.Run();
+                    Largest_of_Two_Numbers.Run();
                     break;
 
                 case 5:
