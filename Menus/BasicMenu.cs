@@ -16,9 +16,9 @@ public static class BasicMenu
             Console.WriteLine("2. Odd Even");
             Console.WriteLine("3. Positive_Negative_Zero");
             Console.WriteLine("4. Largest_of_Two_Numbers");
-            Console.WriteLine("4. Fibonacci");
-            Console.WriteLine("5. Armstrong");
-            Console.WriteLine("6. Palindrome");
+            Console.WriteLine("5. Largest_of_Three_Numbers");
+            Console.WriteLine("6. Armstrong");
+            Console.WriteLine("7. Palindrome");
             Console.WriteLine("0. Back");
 
             Console.Write("\nEnter Choice : ");
@@ -44,7 +44,7 @@ public static class BasicMenu
                     break;
 
                 case 5:
-                    //Armstrong.Run();
+                    Largest_of_Three_Numbers.Run();
                     break;
 
                 case 6:
