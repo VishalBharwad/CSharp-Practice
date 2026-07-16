@@ -17,7 +17,7 @@ public static class BasicMenu
             Console.WriteLine("3. Positive_Negative_Zero");
             Console.WriteLine("4. Largest_of_Two_Numbers");
             Console.WriteLine("5. Largest_of_Three_Numbers");
-            Console.WriteLine("6. Armstrong");
+            Console.WriteLine("6. Smallest_of_Three_Numbers");
             Console.WriteLine("7. Palindrome");
             Console.WriteLine("0. Back");
 
@@ -48,7 +48,7 @@ public static class BasicMenu
                     break;
 
                 case 6:
-                    //Palindrome.Run();
+                    Smallest_of_Three_Numbers.Run();
                     break;
 
                 case 0:
