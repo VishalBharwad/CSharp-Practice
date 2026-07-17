@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Practice
 {
-    public static class OddEven
+    public static class _02_OddEven
     {
         public static void Run()
         {

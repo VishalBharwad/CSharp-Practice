@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Practice._01_Basic_Programs
 {
-    class Smallest_of_Three_Numbers
+    class _07_Swap_Two_Numbers
     {
         public static void Run()
         {
@@ -14,11 +14,14 @@ namespace CSharp_Practice._01_Basic_Programs
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter A Num 2");
             int num2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter A Num 3");
-            int num3 = Convert.ToInt32(Console.ReadLine());
 
-            int smallest = Math.Min(num1, Math.Min(num2,num3));
-            Console.WriteLine($"Smallest Value Is {smallest}");
+            Console.WriteLine($"Before Swap Num 1 :{num1} & Num 2 :{num2}");
+
+            int x = num1;
+            num1 = num2;
+            num2 = x;
+
+            Console.WriteLine($"After Swap Num 1 :{num1} & Num 2 :{num2}");
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Practice._01_Basic_Programs
 {
-    class Largest_of_Three_Numbers
+    class _05_Largest_of_Three_Numbers
     {
         public static void Run()
         {

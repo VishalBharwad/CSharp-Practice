@@ -7,7 +7,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CSharp_Practice._01_Basic_Programs
 {
-    class Positive_Negative_Zero
+    class _03_Positive_Negative_Zero
     {
         public static void Run()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Practice._01_Basic_Programs
 {
-    class Hello_World
+    class _01_Hello_World
     {
         public static void Run()
         {

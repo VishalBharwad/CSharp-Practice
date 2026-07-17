@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Practice._01_Basic_Programs
 {
-    class Largest_of_Two_Numbers
+    class _08_Swap_Two_Numbers
     {
         public static void Run()
         {
@@ -15,18 +15,12 @@ namespace CSharp_Practice._01_Basic_Programs
             Console.WriteLine("Enter A Num 2");
             int num2 = Convert.ToInt32(Console.ReadLine());
 
-            if(num1 == num2)
-            {
-                Console.WriteLine("Both Are Same");
-            }
-            else if(num1 > num2)
-            {
-                Console.WriteLine($"{num1} is Large");
-            }
-            else
-            {
-                Console.WriteLine($"{num2} is Large");
-            }
+            Console.WriteLine($"Before Swap Num 1 :{num1} & Num 2 :{num2}");
+            num1 = num1 + num2;
+            num2 = num1 - num2;
+            num1 = num1 - num2;
+
+            Console.WriteLine($"After Swap Num 1 :{num1} & Num 2 :{num2}");
         }
     }
 }
