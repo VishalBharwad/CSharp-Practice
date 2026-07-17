@@ -18,7 +18,7 @@ public static class BasicMenu
             Console.WriteLine("4. Largest_of_Two_Numbers");
             Console.WriteLine("5. Largest_of_Three_Numbers");
             Console.WriteLine("6. Smallest_of_Three_Numbers");
-            Console.WriteLine("7. Palindrome");
+            Console.WriteLine("7. Swap_Two_Numbers(Using_Third_Variable)");
             Console.WriteLine("0. Back");
 
             Console.Write("\nEnter Choice : ");
@@ -49,6 +49,10 @@ public static class BasicMenu
 
                 case 6:
                     Smallest_of_Three_Numbers.Run();
+                    break;
+
+                case 7:
+                    Swap_Two_Numbers.Run();
                     break;
 
                 case 0:
