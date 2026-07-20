@@ -60,6 +60,10 @@ public static class BasicMenu
                     _08_Swap_Two_Numbers.Run();
                     break;
 
+                case 9:
+                    _09_Leap_Year.Run();
+                    break;
+
                 case 0:
                     return;
 
