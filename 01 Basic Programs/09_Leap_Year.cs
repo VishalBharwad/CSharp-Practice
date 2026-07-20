@@ -13,7 +13,7 @@ namespace CSharp_Practice._01_Basic_Programs
             Console.WriteLine("Enter A Year");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
-            if (num1%4==0 && num1%100==0 || num1%400==0)
+            if (num1%4==0 && num1%100!=0 || num1%400==0)
             {
                 Console.WriteLine($"{num1} Year Is Leap Year");
             }

@@ -20,6 +20,8 @@ public static class BasicMenu
             Console.WriteLine("6. Smallest_of_Three_Numbers");
             Console.WriteLine("7. Swap_Two_Numbers(Using_Third_Variable)");
             Console.WriteLine("8. Swap_Two_Numbers(Without_Using_Third_Variable)");
+            Console.WriteLine("9. Leap_Year");
+            Console.WriteLine("10. Prime Number");
             Console.WriteLine("0. Back");
 
             Console.Write("\nEnter Choice : ");
@@ -62,6 +64,10 @@ public static class BasicMenu
 
                 case 9:
                     _09_Leap_Year.Run();
+                    break;
+
+                case 10:
+                    _10_Prime_Number.Run();
                     break;
 
                 case 0:
