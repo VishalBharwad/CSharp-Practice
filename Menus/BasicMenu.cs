@@ -23,6 +23,7 @@ public static class BasicMenu
             Console.WriteLine("9. Leap_Year");
             Console.WriteLine("10.Prime_Number");
             Console.WriteLine("11.Prime_Number_In_Range");
+            Console.WriteLine("12.Factorial");
             Console.WriteLine("0. Back");
 
             Console.Write("\nEnter Choice : ");
@@ -73,6 +74,10 @@ public static class BasicMenu
 
                 case 11:
                     _11_Prime_Number_In_Range.Run();
+                    break;
+
+                case 12:
+                    _12_Factorial.Run();
                     break;
 
                 case 0:
