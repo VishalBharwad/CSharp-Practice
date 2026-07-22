@@ -2,7 +2,7 @@
 
 namespace CSharp_Practice;
 
-public static class BasicMenu
+public static class _01_BasicMenu
 {
     public static void Show()
     {

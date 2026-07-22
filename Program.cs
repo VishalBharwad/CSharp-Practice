@@ -1,4 +1,5 @@
 ﻿using CSharp_Practice;
+using CSharp_Practice.Menus;
 
 while (true)
 {
@@ -19,7 +20,7 @@ while (true)
     switch (choice)
     {
         case 1:
-            BasicMenu.Show();
+            _01_BasicMenu.Show();
             break;
 
         case 2:
@@ -31,7 +32,7 @@ while (true)
             break;
 
         case 4:
-            // PatternMenu.Show();
+            _04_PatternPrograms.Show();
             break;
 
         case 5:
