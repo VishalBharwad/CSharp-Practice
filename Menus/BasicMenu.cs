@@ -24,6 +24,7 @@ public static class BasicMenu
             Console.WriteLine("10.Prime_Number");
             Console.WriteLine("11.Prime_Number_In_Range");
             Console.WriteLine("12.Factorial");
+            Console.WriteLine("13.Fibonacci_Series");
             Console.WriteLine("0. Back");
 
             Console.Write("\nEnter Choice : ");
@@ -78,6 +79,10 @@ public static class BasicMenu
 
                 case 12:
                     _12_Factorial.Run();
+                    break;
+
+                case 13:
+                    _13_Fibonacci_Series.Run();
                     break;
 
                 case 0:
