@@ -19,6 +19,7 @@ namespace CSharp_Practice.Menus
                 Console.WriteLine("====== Pattern Programs ======");
 
                 Console.WriteLine("01. Square_Star_Pattern");
+                Console.WriteLine("02. Square_Star_Pattern");
 
                 Console.WriteLine("0. Back");
 
@@ -30,6 +31,10 @@ namespace CSharp_Practice.Menus
                 {
                     case 1:
                         _01_Square_Star_Pattern.Run();
+                        break;
+
+                    case 2:
+                        _02_Rectangle_Pattern.Run();
                         break;
 
                     case 0:
